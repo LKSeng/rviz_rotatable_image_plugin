@@ -1,7 +1,7 @@
 FROM ros:noetic
 
 # copy selected packages to desired directory in container
-COPY rviz_rotatable_image_plugin /root/catkin_ws/src/rviz_rotatable_image_plugin
+COPY . /root/catkin_ws/src/rviz_rotatable_image_plugin
 
 SHELL ["bash", "-c"]
 
