@@ -5,6 +5,8 @@ Alternative topologies include launching an [image_rotate node](https://wiki.ros
 
 This plugin works by taking the `sensor_msgs::Image` before it is rendered, converting it to `cv::Mat` if rotation is needed for OpenCV to perform the rotation, and converting the rotated image back to `sensor_msgs::Image` for rendering.
 
+This plugin was created for [ROS Noetic](https://wiki.ros.org/noetic), on [Ubuntu-20.04](https://releases.ubuntu.com/20.04/).
+
 # Installation
 
 1. Clone this repository to your ROS workspace
