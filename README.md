@@ -1,5 +1,7 @@
 # rviz_rotatable_image_plugin
-RViz plugin to rotate `sensor_msgs::Image` for visualisation purposes, especially so if camera is mounted at an angle.
+RViz plugin to rotate `sensor_msgs::Image` for visualisation purposes in-situ, especially so if camera is mounted at an angle. For avoidance of doubt, note that this plugin does not publish the rotated image.
+
+Alternative topologies include launching an [image_rotate node](https://wiki.ros.org/image_rotate) to rotate and publish the rotated image, and then subscribing said rotated image topic on RViz with the regular image display plugin.
 
 This plugin works by taking the `sensor_msgs::Image` before it is rendered, converting it to `cv::Mat` if rotation is needed for OpenCV to perform the rotation, and converting the rotated image back to `sensor_msgs::Image` for rendering.
 
