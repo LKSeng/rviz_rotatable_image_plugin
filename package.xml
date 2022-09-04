@@ -51,7 +51,7 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>cv_bridge</build_depend>
-  <build_depend>build_depend>libogre-dev</build_depend>
+  <build_depend>libogre-dev</build_depend>
   <build_depend>libqt5-opengl-dev</build_depend>
   <build_depend>pluginlib</build_depend>
   <build_depend>roscpp</build_depend>
