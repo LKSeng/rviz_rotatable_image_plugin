@@ -20,6 +20,8 @@ This plugin was created for [ROS Noetic](https://wiki.ros.org/noetic), on [Ubunt
 
 # Usage
 
+**Note:** There is currently a bug that prevents the original `rviz::Image` plugin together with this `rviz_rotatable_image_plugin::ImageRotated`. To successfully use this plugin, all Image plugins need to be the same -- you can't (easily) mix and match the plugins. This applies to the RViz session. Even if you have previously opened an `rviz::Image` plugin and closed it before opening a new `ImageRotated` display plugin, it still may not work. For best results close the RViz session and reopen and select only `ImageRotated` display plugins. Tracked in [#1](/../../issues/1).
+
 Select this plugin in RViz.
 
 ![rviz_rotatable_image_plugin in RViz](images/select_plugin.png "Plugin appears as ImageRotated under namespace rviz_rotatable_image_plugin in RViz")
