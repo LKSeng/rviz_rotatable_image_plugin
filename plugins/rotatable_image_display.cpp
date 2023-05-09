@@ -99,7 +99,7 @@ void ImageDisplay2::onInitialize()
   {
     static int count = 0;
     std::stringstream ss;
-    ss << "ImageDisplayObject" << count++;
+    ss << "ImageDisplay2Object" << count++;
 
     screen_rect_ = new Ogre::Rectangle2D(true);
     screen_rect_->setRenderQueueGroup(Ogre::RENDER_QUEUE_OVERLAY - 1);
