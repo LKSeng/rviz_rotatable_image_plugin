@@ -15,7 +15,7 @@ This plugin was created for [ROS Noetic](https://wiki.ros.org/noetic), on [Ubunt
 1. Clone this repository to your ROS workspace
 2. Build this package
     ```shell
-    catkin build rviz_rotatable_image_display
+    catkin build rviz_rotatable_image_plugin
     ```
 
 # Usage
@@ -32,7 +32,7 @@ Select this plugin in RViz.
 
 # Debugging
 
-Check if this plugin is installed properly:
+Check if this plugin is installed properly (remember to source the workspace this plugin is in first):
 
 ```shell
 rospack plugins --attrib=plugin rviz
