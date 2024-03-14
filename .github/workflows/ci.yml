@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: rviz_rotatable_image_plugin_ci
+name: noetic_build
 
 # Controls when the workflow will run
 on:
