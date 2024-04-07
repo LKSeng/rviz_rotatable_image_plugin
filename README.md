@@ -1,6 +1,6 @@
 # rviz_rotatable_image_plugin
 
-[![](https://github.com/LKSeng/rviz_rotatable_image_plugin/workflows/noetic_build/badge.svg?branch=main)](https://github.com/LKSeng/rviz_rotatable_image_plugin/actions)
+[![](https://github.com/LKSeng/rviz_rotatable_image_plugin/workflows/noetic_build/badge.svg)](https://github.com/LKSeng/rviz_rotatable_image_plugin/actions)
 
 RViz plugin to rotate `sensor_msgs::Image` for visualisation purposes in-situ, especially so if camera is mounted at an angle. For avoidance of doubt, note that this plugin does not publish the rotated image.
 
